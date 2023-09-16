@@ -1,0 +1,12 @@
+a=input()
+b=input()
+c=input()
+d=input()
+if c=='Rock' and d=='Scissor':
+    print(a,'Win')
+elif c=='Scissor' and d=='Paper':
+    print(a,'Win')
+elif c=='Paper' and d=='Rock':
+    print(a,'Win')
+else:
+    print(b,'Win')# hackerrankanswers
