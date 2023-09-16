@@ -1,0 +1,7 @@
+num=eval(input())
+
+flr=num//1
+clr=-(-num//1)
+
+print(f'{flr:.6f}')
+print(f'{clr:.6f}')
