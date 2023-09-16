@@ -1,0 +1,9 @@
+n=int(input())
+d1=int(input())
+d2=int(input())
+re1=n%d1
+re2=n%d2
+c=(re1+re2)==0
+
+out="Yes."*c+'No.'*(1-c)
+print(out)
