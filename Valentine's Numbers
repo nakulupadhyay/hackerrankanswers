@@ -1,0 +1,8 @@
+n1 = int(input())
+n2 = int(input())
+re1 = n1+n2
+re2 = n1^n2
+c = re1 == re2
+
+out="'Valentine Match'"*c+"None"*(1-c)
+print(out)
